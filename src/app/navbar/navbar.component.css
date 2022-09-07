@@ -1,0 +1,137 @@
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+
+  .navbar-cc {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 6px 20px rgba(11, 255, 141, 0.952);
+  }
+  
+  
+  .navbar-cc {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 6px 20px rgba(11, 255, 141, 0.952);
+  }
+  .but {
+    text-decoration: none;
+    color: var(--bs-teal);
+  }
+  .but:hover,
+  .but:active {
+    color: white;
+  }
+  
+  .btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+    padding: 15px;
+  }
+  .btn-order:hover,
+  .btn-order:active {
+    color: white;
+    background-color: var(--bs-teal);
+    border-radius: 1rem;
+    border: solid 3px green;
+  }
+  
+  .liens .lien {
+    list-style: none;
+  }
+  .liens .lien a {
+    color: #000;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.34s ease;
+  }
+  .liens .lien a:hover {
+    color: orangered;
+    background-color: cornsilk;
+    transition: all 0.2s ease-in;
+    border-radius: 1rem;
+    font-size: 17px;
+    box-shadow: 5px 6px 20px rgba(250, 110, 110, 0.822);
+  }
+  .mega-menu {
+    width: 800px;
+    overflow: hidden;
+    padding: 10px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #f5f5f5;
+  }
+  
+ 
+  .colone .sub-menu {
+    font-size: 1.2rem;
+    font-family: "the_questregular";
+    color: red;
+  }
+  .colone p a {
+    padding: 0 20px;
+    color: #000;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .colone p a:hover {
+    color: orangered;
+    background-color: cornsilk;
+    transition: all 0.2s ease-in;
+    border-radius: 1rem;
+    font-size: 17px;
+    box-shadow: 5px 6px 20px rgba(250, 110, 110, 0.822);
+  }
+  .colone h4 {
+    font-size: 1.2rem;
+    font-family: "the_questregular";
+  }
+  
+  h1 {
+    font-family: "the_questregular";
+    font-size: 30px;
+    padding-right: 20px;
+    padding-top: 1px;
+    font-weight: 600;
+  }
+  
+  .data {
+    font-family: "the_questregular";
+    font-size: 30px;
+    padding-right: 20px;
+    padding-top: 1px;
+    font-weight: 600;
+  }
+  .data {
+    text-shadow: 0px 1px 0px rgb(240, 111, 111), 0px 2px 0px rgb(238, 15, 15),
+      0px 3px 0px rgb(10, 219, 21), 0px 4px 0px rgb(247, 184, 184),
+      0px 5px 0px rgb(55, 241, 30);
+    top: 10px;
+  }
+  
+  

@@ -1,34 +1,85 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar  navbar-expand-lg navbar-light bg-light navbar-cc fixed">
   <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    
+    <a class="navbar-brand data mx-4 py-4" href="#"><h1><img src="" alt="" width="40" height="34" class="d-inline-block align-text-top"></h1></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">Hidden brand</a>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <div class="collaps  navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 liens ">
+        <li class="nav-item  pe-4 lien">
+          <a class="nav-link" routerLink="/main" tabindex="-1" aria-disabled="true">Accueil</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <li class="nav-item pe-4 dropdown lien">
+          <a class="nav-link active dropdown-toggle" href="magasin.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Actes
+          </a>
+          
+         
+          <ul class="dropdown-menu mega-menu " aria-labelledby="navbarDropdown">
+           <div class="row content">
+            <div class="col-md-4 colone">
+              <p><strong class="sub-menu">Acte Naissance</strong></p>
+                           <p><a class="nav-link" routerLink="/" tabindex="-1" aria-disabled="true">Editer Acte a</a></p>
+                            <p><a class="nav-link" routerLink="/" tabindex="-1" aria-disabled="true"></a></p>
+                             <p><a class="nav-link" routerLink="/" tabindex="-1" aria-disabled="true"></a></p>
+                              <p> <a class="nav-link" routerLink="/" tabindex="-1" aria-disabled="true"></a></p> 
+                              <p> <a class="nav-link" routerLink="/" tabindex="-1" aria-disabled="true"></a></p>
+                                        
+             </div>
+               <div class="col-md-4 colone">
+                <p><strong class="sub-menu">Actes Mariage</strong></p>
+                              <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+                              <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+                               <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+                                <p> <a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p> 
+                                <p> <a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+                                          
+               </div>
+               <div class="col-md-4 colone">
+                <p><strong class="sub-menu">Actes de Deces</strong> </p>
+                <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+                <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+                <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+                <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+                <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+                    
+                 
+              </div>
+            </div>    
+                  
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true">Dashboard</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/login" tabindex="-1" aria-disabled="true">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/registration" tabindex="-1" aria-disabled="true">Registration</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+        
+        <li class="nav-item pe-4 dropdown lien">
+          <a class="nav-link" routerLink="/registration" tabindex="-1" aria-disabled="true">
+            Soumettre Demande
+          </a>
+          <ul class="dropdown-menu mega-menu " aria-labelledby="navbarDropdown">
+           <div class="row content">
+            <div class="col-md-4 colone">
+              <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+              <p> <a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+              <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+              
+                  </div>
+                  </div>
+                </ul>
+                </li>
+                <li class="nav-item pe-4  lien">
+                  <a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true">Dashboard</a>
+                </li>
+                <li class="nav-item pe-4  lien">
+                  <a class="nav-link" routerLink="/Login" tabindex="-1" aria-disabled="true">Login</a>
+                </li>
+               </ul>  
+               <form class="d-flex mx-4 py-4">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+               
+                
+              </form>
     </div>
   </div>
+ 
 </nav>

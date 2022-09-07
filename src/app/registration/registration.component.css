@@ -1,0 +1,182 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+  }
+  .fiche {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .fiche h2 {
+    width: 100%;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "the_questregular";
+    text-transform: uppercase;
+  }
+  
+  .fiche p {
+    width: 100%;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: capitalize;
+    padding: 10px;
+  }
+  
+  .fiche .row100 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .fiche .row100 .col {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+  }
+  
+  .fiche .row100 .inputBox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #000;
+  }
+  
+  .fiche .row100 .inputBox input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #fff;
+  }
+  .fiche .row100 .inputBox.textarea textarea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #fff;
+  }
+  .fiche .row100 .inputBox.textarea select {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #fff;
+  }
+  
+  .fiche .row100 .inputBox .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  .fiche .row100 .inputBox input:focus + .text,
+  .fiche .row100 .inputBox input:valid + .text {
+    top: -35px;
+    left: -10px;
+  }
+  
+  .fiche .row100 .inputBox .line {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #00ff7f;
+    transition: 00.5s;
+    border-radius: 2px;
+    pointer-events: none;
+  }
+  .fiche .row100 .inputBox input:focus ~ .line,
+  .fiche .row100 .inputBox input:valid ~ .line {
+    height: 100%;
+  }
+  
+  .fiche .row100 .inputBox.textarea {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+  }
+  .fiche .row100 .inputBox.textarea select {
+    height: 100%;
+    resize: none;
+  }
+  .fiche .row100 .inputBox.textarea textarea {
+    height: 100%;
+    resize: none;
+  }
+  .fiche .row100 .inputBox textarea:focus + .text,
+  .fiche .row100 .inputBox textarea:valid + .text {
+    top: -35px;
+    left: -10px;
+  }
+  .fiche .row100 .inputBox textarea:focus ~ .line,
+  .fiche .row100 .inputBox textarea:valid ~ .line {
+    height: 100%;
+  }
+  .fiche .row100 .inputBox select:focus + .text,
+  .fiche .row100 .inputBox select:valid + .text {
+    top: -35px;
+    left: -10px;
+  }
+  .fiche .row100 .inputBox select:focus ~ .line,
+  .fiche .row100 .inputBox select:valid ~ .line {
+    height: 100%;
+  }
+  
+  input[type="submit"] {
+    border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background: #00ff7f;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+  }
+  input[type="submit"]:hover,
+  input[type="submit"]:active {
+    background: #ff0000;
+  }
+  
+  
