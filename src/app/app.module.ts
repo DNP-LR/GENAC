@@ -20,6 +20,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { AdminSettingsComponent } from './dashboard/component/admin-settings/admin-settings.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AdminSettingsComponent } from './dashboard/component/admin-settings/adm
     NavbarComponent,
     DashboardComponent,
     NavigationComponent,
-    AdminSettingsComponent
+    AdminSettingsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

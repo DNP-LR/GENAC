@@ -1,3 +1,8 @@
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+ 
 <nav class="navbar  navbar-expand-lg navbar-light bg-light navbar-cc fixed">
   <div class="container-fluid">
     
@@ -10,57 +15,49 @@
         <li class="nav-item  pe-4 lien">
           <a class="nav-link" routerLink="/main" tabindex="-1" aria-disabled="true">Accueil</a>
         </li>
-        <li class="nav-item pe-4 dropdown lien">
-          <a class="nav-link active dropdown-toggle" href="magasin.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item  dropdown pe-4 lien">
+          <a class="nav-link dropdown-toggle  active" href="Actes" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Actes
           </a>
-          
-         
           <ul class="dropdown-menu mega-menu " aria-labelledby="navbarDropdown">
            <div class="row content">
             <div class="col-md-4 colone">
               <p><strong class="sub-menu">Acte Naissance</strong></p>
-                           <p><a class="nav-link" routerLink="/" tabindex="-1" aria-disabled="true">Editer Acte a</a></p>
-                            <p><a class="nav-link" routerLink="/" tabindex="-1" aria-disabled="true"></a></p>
-                             <p><a class="nav-link" routerLink="/" tabindex="-1" aria-disabled="true"></a></p>
-                              <p> <a class="nav-link" routerLink="/" tabindex="-1" aria-disabled="true"></a></p> 
-                              <p> <a class="nav-link" routerLink="/" tabindex="-1" aria-disabled="true"></a></p>
-                                        
+                           <p><a class="nav-link" routerLink="/editer acte naissance"tabindex="-1" aria-disabled="true">Editer Acte a</a></p>
+                            <p><a class="nav-link" routerLink="/imprimer acte" tabindex="-1" aria-disabled="true">Imprimer</a></p>
+                              <p> <a class="nav-link" routerLink="/registre naissance" tabindex="-1" aria-disabled="true">Resgitres Acte de Naissance</a></p>                       
              </div>
+
                <div class="col-md-4 colone">
                 <p><strong class="sub-menu">Actes Mariage</strong></p>
-                              <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
-                              <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
-                               <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
-                                <p> <a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p> 
-                                <p> <a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+                              <p><a class="nav-link" routerLink="/publications de bans" tabindex="-1" aria-disabled="true">Publication de Bans de Mariage</a></p>
+                              <p><a class="nav-link" routerLink="/Resgitre acte" tabindex="-1" aria-disabled="true">Resgitres Mariage</a></p>
+                               <p><a class="nav-link" routerLink="/consulter acte" tabindex="-1" aria-disabled="true">consulter acte Mariage</a></p>
                                           
                </div>
+
                <div class="col-md-4 colone">
                 <p><strong class="sub-menu">Actes de Deces</strong> </p>
-                <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
-                <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
-                <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
-                <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
-                <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
-                    
-                 
+                <p><a class="nav-link" routerLink="/editer acte deces" tabindex="-1" aria-disabled="true">Editer Acte Deces</a></p>
+                <p><a class="nav-link" routerLink="/imprimer acte deces" tabindex="-1" aria-disabled="true">Imprimer</a></p>
+                <p><a class="nav-link" routerLink="/registre" tabindex="-1" aria-disabled="true">Registre Deces</a></p>
+         
               </div>
             </div>    
                   
           </ul>
         </li>
         
-        <li class="nav-item pe-4 dropdown lien">
-          <a class="nav-link" routerLink="/registration" tabindex="-1" aria-disabled="true">
+        <li class="nav-item  dropdown lien">
+          <a class="nav-link active dropdown-toggle" href="Soumettre Demande" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Soumettre Demande
           </a>
-          <ul class="dropdown-menu mega-menu " aria-labelledby="navbarDropdown">
+          <ul class="dropdown-menu petit-menu " aria-labelledby="navbarDropdown">
            <div class="row content">
-            <div class="col-md-4 colone">
-              <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
-              <p> <a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
-              <p><a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true"></a></p>
+            <div class="col-md- colone">
+              <p><a class="nav-link" routerLink="/etablir acte naissance" tabindex="-1" aria-disabled="true">Etablissement Acte Naissance</a></p>
+              <p> <a class="nav-link" routerLink="/etablir acte de mariage" tabindex="-1" aria-disabled="true">Etablissement Acte Mariage</a></p>
+              <p><a class="nav-link" routerLink="/etablir acte deces" tabindex="-1" aria-disabled="true">Etablissement Acte de Deces</a></p>
               
                   </div>
                   </div>
@@ -69,17 +66,32 @@
                 <li class="nav-item pe-4  lien">
                   <a class="nav-link" routerLink="/navigation.component" tabindex="-1" aria-disabled="true">Dashboard</a>
                 </li>
-                <li class="nav-item pe-4  lien">
-                  <a class="nav-link" routerLink="/Login" tabindex="-1" aria-disabled="true">Login</a>
-                </li>
+                <li class="nav-item  dropdown lien">
+                  <a class="nav-link active dropdown-toggle" href="declaration" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Declaration
+                  </a>
+                  <ul class="dropdown-menu petit-menu " aria-labelledby="navbarDropdown">
+                   <div class="row content">
+                    <div class="col-md- colone">
+                      <p><a class="nav-link" routerLink="/declaration naissance " tabindex="-1" aria-disabled="true">Naissance</a></p>
+                      <p> <a class="nav-link" routerLink="/declaration de deces" tabindex="-1" aria-disabled="true"> deces</a></p>
+                      
+                      
+                          </div>
+                          </div>
+                        </ul>
+                        </li>
                </ul>  
-               <form class="d-flex mx-4 py-4">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-               
+              
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-primary  me-md-2 " type="button"><a class="nav-link" routerLink="/login" tabindex="-1" aria-disabled="true">Connexion</a></button>
+                  <button class="btn btn-primary me-md-2" type="button"><a class="nav-link" routerLink="/s'incrire" tabindex="-1" aria-disabled="true">S'incrire</a></button>
+                 
+                </div>
                 
-              </form>
     </div>
   </div>
  
 </nav>
+ 
+ 

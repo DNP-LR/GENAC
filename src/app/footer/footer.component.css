@@ -1,0 +1,130 @@
+.footer {
+    background-color: #111111;
+    padding-top: 70px;
+  }
+  .footer-about .footer-logo,
+  .footer-newsletter,
+  .ft p {
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #3d3d3d;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+  }
+  .footer-logo a {
+    text-decoration: none;
+    font-family: "the_questregular";
+    font-size: 30px;
+    padding-right: 20px;
+    padding-top: 1px;
+    font-weight: 600;
+    color: white;
+  }
+  .footer-logo,
+  .footer-widget a {
+    text-decoration: none;
+  }
+  
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+  .footer-widget h6 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-widget ul {
+    padding-left: 0;
+  }
+  
+  .footer-widget ul li {
+    line-height: 36px;
+    list-style: none;
+  }
+  .footer-widget ul li a {
+    color: #b7b7b7;
+    font-size: 15px;
+  }
+  
+  .footer-widget ul li a:hover {
+    color: orangered;
+    background-color: cornsilk;
+    transition: all 0.2s ease-in;
+    border-radius: 5px 5px 5px 5px;
+  
+    font-size: 15px;
+    box-shadow: 5px 6px 20px rgba(250, 110, 110, 0.822);
+  }
+  
+  .footer-about {
+    margin-bottom: 30px;
+  }
+  .footer-about .footer-logo {
+    margin-bottom: 30px;
+  }
+  
+  .footer-about p {
+    color: #b7b7b7;
+    margin-bottom: 30px;
+  }
+  
+  .footer-widget .footer-newsletter p {
+    color: #b7b7b7;
+  }
+  .footer-widget .footer-newsletter form {
+    position: relative;
+  }
+  
+  .footer-widget .footer-newsletter form input {
+    width: 100%;
+    font-size: 15px;
+    color: #ffffff;
+    border: none;
+    padding: 15px 0;
+    border-bottom: 2px solid #ffffff;
+    background: transparent;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .footer-logo a:hover,
+  a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+  }
+  
+  .footer-widget .footer-newsletter form input::placeholder {
+    color: #b7b7b7;
+  }
+  .footer-widget .footer-newsletter form button {
+    color: #b7b7b7;
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    height: 100%;
+    background: transparent;
+    border: none;
+  }
+  
+  .footer-copyright-text {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  .footer-copyright-text p {
+    color: #b7b7b7;
+    margin-bottom: 0;
+  }
+  .footer-copyright-text p i {
+    color: #e53637;
+  }
+  
