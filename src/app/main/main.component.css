@@ -1,18 +1,13 @@
 
   
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
   
   .carousel-item {
     height: 100vh;
     min-height: 300px;
   }
   .carousel-caption {
-    bottom: 200px;
+   top: 100px;
+  
   }
   .carousel-caption h5 {
     font-size: 60px;
@@ -56,4 +51,89 @@
   }
   
   
+  .card-body .ico {
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 10px 10px;
+    
+
+  }
   
+  .card-body .ico:hover {
+    color: #ff0000;
+  }
+
+
+
+  .ts-service-box .ts-service-box-img span {
+    font-size: 5rem;
+    line-height: 3rem;
+    padding: 10px 10px;
+    color: rgb(29, 233, 90);
+  }
+  .ts-service-box .ts-service-box-img span:hover{
+    color: #ff0000;
+  }
+  
+  .ts-service-box .ts-service-box-content {
+    margin-left: 62px;
+    margin-bottom: 30px;
+  }
+  
+  .tab-content .ts-service-box .ts-service-box-content {
+    margin-left: 90px;
+  }
+  
+  .ts-service-box .ts-service-box-content h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 28px;
+  }
+  
+  .ts-service-box .ts-service-box-info {
+    margin-left: 25px;
+    margin-bottom: 40px;
+  }
+  
+  .service-box-title {
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: black;
+    
+  }
+  .service-box-title a {
+    color: red;
+
+    
+  }
+  .service-box-title p{
+    font-size: 12px;
+    color: black;
+  }
+  
+  
+ h3 {
+font-size: 16px;
+  }
+  
+.toto{
+  display:inline-flex;
+  text-align: center;
+  margin-left: 25px;
+  margin-bottom: 40px;
+ justify-content: space-between;
+  
+}
+.card-header{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card-title{
+  font-size: 16px;
+}
+.card-body h5{
+  font-weight: bold;
+  color: black;
+  text-transform: capitalize;
+}
