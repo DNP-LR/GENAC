@@ -267,6 +267,15 @@
   .container.sign-up-mode .right-panel {
     pointer-events: all;
   }
+  .inscrire{
+    text-decoration: none;
+    font-size: 16px;
+    color: #59b670;
+    font-weight: bold;
+  }
+  .inscrire:hover{
+    color: red;
+  }
   
   @media (max-width: 870px) {
     .container {

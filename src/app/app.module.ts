@@ -21,6 +21,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { AdminSettingsComponent } from './dashboard/component/admin-settings/admin-settings.component';
 import { FooterComponent } from './footer/footer.component';
+import { PublicationsComponent } from './publications/publications.component';
+import { OppositionComponent } from './opposition/opposition.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { FooterComponent } from './footer/footer.component';
     DashboardComponent,
     NavigationComponent,
     AdminSettingsComponent,
-    FooterComponent
+    FooterComponent,
+    PublicationsComponent,
+    OppositionComponent
   ],
   imports: [
     BrowserModule,

@@ -132,8 +132,35 @@ font-size: 16px;
 .card-title{
   font-size: 16px;
 }
+.carte{
+  background-color: beige;
+}
 .card-body h5{
   font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+.btn-order {
+ 
+    width: 150px;
+    background-color: rgb(17, 236, 116);
+    border: none;
+   
+    height: 49px;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-order :hover{
+
+  background-color: #ff0000;
+}
+.card-body .card-text{
+  font-size: 16px;
   color: black;
   text-transform: capitalize;
 }
