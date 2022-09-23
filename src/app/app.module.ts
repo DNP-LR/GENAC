@@ -23,6 +23,11 @@ import { AdminSettingsComponent } from './dashboard/component/admin-settings/adm
 import { FooterComponent } from './footer/footer.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { OppositionComponent } from './opposition/opposition.component';
+import { IncrireComponent } from './incrire/incrire.component';
+import { NaissanceComponent } from './naissance/naissance.component';
+import { DecesComponent } from './deces/deces.component';
+import { DeclarationComponent } from './declaration/declaration.component';
+import { DemandeComponent } from './demande/demande.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +41,12 @@ import { OppositionComponent } from './opposition/opposition.component';
     AdminSettingsComponent,
     FooterComponent,
     PublicationsComponent,
-    OppositionComponent
+    OppositionComponent,
+    IncrireComponent,
+    NaissanceComponent,
+    DecesComponent,
+    DeclarationComponent,
+    DemandeComponent
   ],
   imports: [
     BrowserModule,
