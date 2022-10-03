@@ -44,7 +44,7 @@ const routes: Routes= [
     path: 'navigation.component', component: NavigationComponent,
     children: [
       {
-        path: 'admin-settings.component', component: AdminSettingsComponent, // child route component that the router renders
+        path: 'aadmin-settings', component: AdminSettingsComponent, // child route component that the router renders
       }
     ],
   }
