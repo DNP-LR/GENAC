@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import {MainComponent} from "./main/main.component";
 import {RouterModule, Routes} from "@angular/router";
 import {RegistrationComponent} from "./registration/registration.component";
@@ -10,7 +9,6 @@ import {DemandeComponent } from "./demande/demande.component";
 import { DeclarationComponent} from "./declaration/declaration.component";
 import {PublicationsComponent } from "./publications/publications.component";
 import { DecesComponent} from "./deces/deces.component";
-import {DashboardComponent} from "./dashboard/dashboard/dashboard.component";
 import {AdminSettingsComponent} from "./dashboard/component/admin-settings/admin-settings.component";
 import {NavigationComponent} from "./dashboard/navigation/navigation.component";
 import {FooterComponent} from "./footer/footer.component";
@@ -36,17 +34,20 @@ const routes: Routes= [
   {path: 'declaration', component: DeclarationComponent },
   {path: '', redirectTo: '/declaration', pathMatch: 'full'},
 
-
-
   {path: 'footer', title: 'Footer Component',  component: FooterComponent},
   {path: '', redirectTo: '/footer', pathMatch: 'full'},
+
+
   {
-    path: 'navigation.component', component: NavigationComponent,
+    path: 'navigation', component: NavigationComponent,
     children: [
+      {path: 'admin-settings', title: 'Main Component',  component: AdminSettingsComponent},
+
       {
-        path: 'aadmin-settings', component: AdminSettingsComponent, // child route component that the router renders
-      }
+        // path: 'dashboard-nav', loadChildren: () => import ('./dashboard/dashboard.module').then(m => m.DashboardModule)
+      },
     ],
+
   }
 ];
 

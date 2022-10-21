@@ -8,7 +8,7 @@
       <a mat-list-item [routerLink]="['/AdminSettings']">
         <h3>Admin Settings</h3>
       </a>
-      <a mat-list-item routerLink="admin-settings">Utilisateur</a>
+      <a mat-list-item routerLink="/admin-settings">Utilisateur</a>
       <a mat-list-item href="#">editer acte</a>
       <a mat-list-item href="#">consulter declaration</a>
       <a mat-list-item href="#">desactiver acte</a>
@@ -33,9 +33,7 @@
     </mat-toolbar>
     <!-- Add Content Here -->
     <app-dashboard>
-      <div class="card-body">
         <router-outlet></router-outlet>
-      </div>
     </app-dashboard>
   </mat-sidenav-content>
 </mat-sidenav-container>
